@@ -1,0 +1,40 @@
+{
+  "name": "code-verifier-backend",
+  "version": "1.0.0",
+  "description": "Backend Node + Express + TS + Swagger",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohadToledo/code-verifier-backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "swagger",
+    "mongoose"
+  ],
+  "author": "@johadtoledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohadToledo/code-verifier-backend/issues"
+  },
+  "homepage": "https://github.com/JohadToledo/code-verifier-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.3",
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}
