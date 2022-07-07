@@ -18,6 +18,6 @@ app.get('/', (req, res) => {
 
 // Execute APP and Listen Request to PORT
 
-app.listen(port, ()=>{
+app.listen(port, () => {
     console.log(`EXPRESS SERVER: Running at http://localhost:${port}`)
 })
